@@ -1,0 +1,15 @@
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\bin\Debug\net8.0\primeiroProjetoConsole.exe
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\bin\Debug\net8.0\primeiroProjetoConsole.deps.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\bin\Debug\net8.0\primeiroProjetoConsole.runtimeconfig.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\bin\Debug\net8.0\primeiroProjetoConsole.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\bin\Debug\net8.0\primeiroProjetoConsole.pdb
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.AssemblyInfoInputs.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.AssemblyInfo.cs
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.sourcelink.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\refint\primeiroProjetoConsole.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.pdb
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\primeiroProjetoConsole.genruntimeconfig.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\primeiroProjetoConsole\obj\Debug\net8.0\ref\primeiroProjetoConsole.dll
