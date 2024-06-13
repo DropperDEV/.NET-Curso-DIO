@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Models;
+using primeiroProjetoConsole.Models;
 // using primeiroProjetoConsole.PessoaCopia;
 
 // Console.WriteLine("Hello, World!");
@@ -76,11 +77,30 @@ using Models;
 //     Console.WriteLine("Reprovado");
 // }
 
-bool choveu = false;
-bool estaTarde = false;
+// bool choveu = false;
+// bool estaTarde = false;
 
-if(!choveu && !estaTarde){
-    Console.WriteLine("Vou pedalar");
-} else{
-    Console.WriteLine("Vou pedalar outro dia");
-}
+// if(!choveu && !estaTarde){
+//     Console.WriteLine("Vou pedalar");
+// } else{
+//     Console.WriteLine("Vou pedalar outro dia");
+// }
+
+
+// Calculadora calculadora = new Calculadora();
+// double x = 10;
+// double y = 3;
+
+// calculadora.Somar(x,y);
+// calculadora.Subtrair(x,y);
+// calculadora.Multiplicar(x,y);
+// calculadora.Dividir(x,y);
+// calculadora.Potencia(x,y);
+// calculadora.Seno(x);
+// calculadora.Cosseno(x);
+// calculadora.Tangente(x);
+
+int numero = 10;
+
+Console.WriteLine($"O incremento do numero {numero} = {numero++}");
+Console.WriteLine($"O decremento do numero {numero} = {numero--}");
