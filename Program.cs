@@ -100,7 +100,69 @@ using primeiroProjetoConsole.Models;
 // calculadora.Cosseno(x);
 // calculadora.Tangente(x);
 
-int numero = 10;
+// int numero = 10;
 
-Console.WriteLine($"O incremento do numero {numero} = {numero++}");
-Console.WriteLine($"O decremento do numero {numero} = {numero--}");
+// Console.WriteLine($"O incremento do numero {numero} = {numero++}");
+// Console.WriteLine($"O decremento do numero {numero} = {numero--}");
+
+
+//  int numero = 5;
+//  int contador = 0;
+// for(int i = 0; i <= 10; i++){
+//     Console.WriteLine($"{numero} * {i} = {numero*i}");
+// }
+
+// while(contador <= 10){
+//     Console.WriteLine($"{numero} * {contador} = {numero*contador}");
+//     contador++;
+
+//     if(contador == 4){
+//         break;
+//     }
+// }
+
+// do{
+//     Console.WriteLine("Digite um número (0 para parar)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     contador += numero;
+// }
+
+// while(numero != 0);
+
+// Console.WriteLine($"Total da números digitados: {contador}");
+
+string opcao;
+bool exibirMenu = true;
+while (exibirMenu)
+{
+    Console.Clear();
+    Console.WriteLine("Digite sua opção:");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+    opcao = Console.ReadLine();
+
+    switch (opcao){
+        case "1":
+            Console.WriteLine("Cadastrando Cliente");
+            break;
+        case "2":
+            Console.WriteLine("Buscando Cliente");
+            break;
+        case "3":
+            Console.WriteLine("Apagando Cliente");
+            break;
+        case "4":
+            Console.WriteLine("Saindo do sistema");
+            // Environment.Exit(0);
+            exibirMenu = false;
+            break;
+        default:
+            Console.WriteLine("Nenhuma opção válida selecionada");
+            break;
+    }
+}
+
+Console.WriteLine("O programa encerrou");
