@@ -132,37 +132,93 @@ using primeiroProjetoConsole.Models;
 
 // Console.WriteLine($"Total da números digitados: {contador}");
 
-string opcao;
-bool exibirMenu = true;
-while (exibirMenu)
-{
-    Console.Clear();
-    Console.WriteLine("Digite sua opção:");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
-    opcao = Console.ReadLine();
+// string opcao;
+// bool exibirMenu = true;
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
+//     opcao = Console.ReadLine();
 
-    switch (opcao){
-        case "1":
-            Console.WriteLine("Cadastrando Cliente");
-            break;
-        case "2":
-            Console.WriteLine("Buscando Cliente");
-            break;
-        case "3":
-            Console.WriteLine("Apagando Cliente");
-            break;
-        case "4":
-            Console.WriteLine("Saindo do sistema");
-            // Environment.Exit(0);
-            exibirMenu = false;
-            break;
-        default:
-            Console.WriteLine("Nenhuma opção válida selecionada");
-            break;
-    }
+//     switch (opcao){
+//         case "1":
+//             Console.WriteLine("Cadastrando Cliente");
+//             break;
+//         case "2":
+//             Console.WriteLine("Buscando Cliente");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagando Cliente");
+//             break;
+//         case "4":
+//             Console.WriteLine("Saindo do sistema");
+//             // Environment.Exit(0);
+//             exibirMenu = false;
+//             break;
+//         default:
+//             Console.WriteLine("Nenhuma opção válida selecionada");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("O programa encerrou");
+
+
+// int[] arrayInteiros = new int[3];
+// int[] arrayInteiros2 = new int[arrayInteiros.Length*2];
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+
+// Console.WriteLine("Usando FOR:");
+//  for(int i = 0;i<arrayInteiros.Length;i++){
+//          Console.WriteLine($"Indice {i}: {arrayInteiros[i]}");
+//   }
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Console.WriteLine("\nUsando For-Each:");
+// int contadorForeach = 0;
+// foreach(int i in arrayInteiros){
+//        Console.WriteLine($"Indice {contadorForeach}: {i}");
+//        contadorForeach++;
+// }
+
+// Array.Copy(arrayInteiros,arrayInteiros2,arrayInteiros.Length);
+// Console.WriteLine("\nArray copiado!");
+// foreach(int i in arrayInteiros2){
+//        Console.WriteLine($"Indice {contadorForeach}: {i}");
+// }
+
+List<string> estadosSG = new List<string>();
+estadosSG.Add("SP");
+estadosSG.Add("CE");
+estadosSG.Add("RN");
+
+ Console.WriteLine("\nUsando For:");
+for (int i = 0; i < estadosSG.Count; i++){
+    Console.WriteLine($"Item {i}: {estadosSG[i]}");
 }
 
-Console.WriteLine("O programa encerrou");
+ Console.WriteLine("\nUsando For-Each:");
+ int contadorForeach = 0;
+ foreach(string i in estadosSG){
+        Console.WriteLine($"Indice {contadorForeach}: {i}");
+        contadorForeach++;
+ }
+
+Console.WriteLine($"\nQuantidade de items: {estadosSG.Count}; Capacidade: {estadosSG.Capacity}");
+Console.WriteLine("\nRemovendo um item...");
+estadosSG.Remove("SP");
+Console.WriteLine($"Quantidade de items: {estadosSG.Count}; Capacidade: {estadosSG.Capacity}");
+
+Console.WriteLine("\nAdicionando três itens...");
+estadosSG.Add("MT");
+estadosSG.Add("MG");
+estadosSG.Add("RS");
+Console.WriteLine($"Quantidade de items: {estadosSG.Count}; Capacidade: {estadosSG.Capacity}");
+
