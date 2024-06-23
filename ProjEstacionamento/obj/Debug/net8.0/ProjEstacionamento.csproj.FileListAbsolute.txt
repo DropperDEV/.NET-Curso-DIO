@@ -1,0 +1,15 @@
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\bin\Debug\net8.0\ProjEstacionamento.exe
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\bin\Debug\net8.0\ProjEstacionamento.deps.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\bin\Debug\net8.0\ProjEstacionamento.runtimeconfig.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\bin\Debug\net8.0\ProjEstacionamento.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\bin\Debug\net8.0\ProjEstacionamento.pdb
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.AssemblyInfoInputs.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.AssemblyInfo.cs
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.sourcelink.json
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\refint\ProjEstacionamento.dll
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.pdb
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ProjEstacionamento.genruntimeconfig.cache
+C:\Users\james\OneDrive\Documentos\Programação\.net\ProjEstacionamento\obj\Debug\net8.0\ref\ProjEstacionamento.dll
